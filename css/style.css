@@ -1,0 +1,241 @@
+/*  
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.contacts-container {
+    background: sandybrown;
+    width: 400px;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.tech-skills-container {
+    background: tomato;
+    width: 400px;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.soft-skills-container {
+    background: turquoise;
+    width: 400px;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.tech-skills-title {
+font-size: 30px;
+font-weight: 800;
+}
+.tech-skills-item{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.main-container{
+    
+}
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat;
+}
+.wrapper {
+  background: #fff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar {
+  background-color: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.my-photo {
+  width: 370px;
+}
+.about-me-container {
+  padding-top: 110px;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-bottom: 110px;
+}
+.contacts-container {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.contacts-container {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contacts-link {
+  color: #434c5a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 10px;
+}
+
+.tech-skills-title {
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.tech-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 60px;
+  margin-right: 40px;
+  color: #ff6b08;
+}
+.tech-skills-text {
+  color: #ffffff;
+}
+.soft-skills-title {
+  margin-bottom: 20px;
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.soft-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 60px;
+  margin-right: 40px;
+  color: #ff6b08;
+}
+.soft-skills-text {
+  color: #ffffff;
+}
+.profession {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+.description {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.info-container {
+  margin-bottom: 65px;
+}
+.about-me-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.projects-link {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.tech-name {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.dots {
+  color: #bebebe;
+}
+.project-item {
+  font-weight: 700;
+  margin-left: 17px;
+}
+.project-container {
+  margin-bottom: 55px;
+}
+.profession-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.profession-company {
+  color: #ff6b08;
+}
+.profession-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.profession-divider {
+  color: #000;
+}
+.profession-duties {
+  margin-top: 14px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.profession-duties-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.profession-title-ed {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+
+  padding-bottom: 15px;
+}
